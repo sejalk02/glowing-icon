@@ -1,0 +1,42 @@
+
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #fff; 
+    margin: 0;
+}
+
+.container {
+    width: 80%; 
+    display: flex;
+    justify-content: center;
+    padding: 20px; 
+    background-color: #ffe6e6; 
+    border-radius: 10px; 
+}
+
+.icon-container {
+    display: flex; 
+    gap: 20px;
+}
+
+.glow-icon {
+    width: 60px;
+    height: auto; 
+    transition: all 0.3s ease; 
+
+    box-shadow: 0 0 5px rgb(217, 206, 206),
+                0 0 5px red;
+                
+}
+
+.glow-icon:hover {
+ 
+    box-shadow: 0 0 10px #ffff,
+                0 0 20px #ffff,
+                0 0 30px #ffff;
+    transform: scale(1.1); 
+}
